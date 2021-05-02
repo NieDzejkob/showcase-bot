@@ -1,0 +1,14 @@
+[package]
+name = "showcase-bot"
+version = "0.1.0"
+authors = ["Jakub Kądziołka <kuba@kadziolka.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.40"
+serde = "1.0.125"
+serenity = { version = "0.10.5", default-features = false, features = ["client", "gateway", "rustls_backend", "model"] }
+tokio = { version = "1.5.0", features = ["rt-multi-thread"] }
+toml = "0.5.8"

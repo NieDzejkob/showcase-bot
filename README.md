@@ -13,3 +13,5 @@ target_channel = 838513238131605573
 allowed_role = 838513396231569419
 trigger_emoji = "morphon"
 ```
+
+[gbdev discord]: https://gbdev.io/chat.html
